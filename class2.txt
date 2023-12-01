@@ -1,0 +1,43 @@
+#Git download and Install
+
+#Apply Git commands using git bash
+----------------------------------
+
+1. Add user-name and user-email to the credential: git config --global user.name "user-name here"
+					           git config --global user.email "user-email here"
+
+2. To see the user-name and user-email: git config user.name : git config user.name || git config --global user.name
+							       git config user.email || git config --global user.email	
+
+3. To create a new folder : mkdir folder-name
+
+4. To create a new file : touch file-name
+
+5. To initialize new git repository: git init
+
+6. To see the status of the git repository: git status
+
+7. If we need to see why we use a specific command: git init --help and git add --help
+
+8. To see all the descriptions of all git commands: git help git
+
+9. Add file contents to the index: git add file-name1 || git add file-name1 file-name2 
+
+10. Add all files and folder contents to the index: git add .
+
+11. To remove file from the index: git rm --cached file-name
+
+12. Record changes to the repository: git commit -m"write a message"
+
+13. Show commit logs or history : git log
+
+14. To see the one-line commit log (first 7 characters): git log --oneline
+
+15. To see the last project statement: git show HEAD
+
+16. To see the specific commit statement: git show commit-id
+					  git show HEAD~serial-number
+ 
+17. Restore working tree files : git checkout file-name
+
+18. Restore all working tree files : git checkout .	 	 
